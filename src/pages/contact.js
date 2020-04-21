@@ -1,9 +1,12 @@
 import React from 'react'
-
+import { Link } from 'gatsby'
 const Contact = props => (
   <section id="contact">
     <div className="inner">
       <section>
+        <Link to="/index" className="link primary">
+          Our Services
+        </Link>
         <form method="post" action="#">
           <div className="field half first">
             <label htmlFor="name">Name</label>
