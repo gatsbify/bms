@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: 'Scot Race Consult - South Africa',
+    author: '@gatsbify.team',
+    description: 'Chartered Accountants in South Africa - Scot Race Consult',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
