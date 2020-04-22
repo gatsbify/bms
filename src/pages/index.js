@@ -57,14 +57,14 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
-                <h3>External &amp; Internal Auditing</h3>
+                <h3>Business Valuation</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
-                <h3>Company Secretarial Services</h3>
+                <h3>Business Training</h3>
                 <p>Feugiat amet tempus</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
@@ -73,17 +73,19 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <header className="major">
-                <h2>Massa libero</h2>
+                <h2>Social Responsibility</h2>
               </header>
+
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-                Pellentesque condimentum sem. In efficitur ligula tate urna.
-                Maecenas laoreet massa vel lacinia pellentesque lorem ipsum
-                dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et
-                sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-                amet pharetra et feugiat tempus.
+                We support the empowerment initiatives by the Botswana
+                Government and support economic development through sound
+                management consultancy and advisory services; backing efforts of
+                non-governmental organizations in HIV and AIDS reduction,
+                poverty alleviation and being environment friendly. We are also
+                committed to the development and creation of self-help projects
+                and small businesses for the local community.
               </p>
+
               <ul className="actions">
                 <li>
                   <Link to="/landing" className="button next">
