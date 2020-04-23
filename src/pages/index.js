@@ -16,10 +16,10 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Gatsby Starter - Forty"
+          title="SCOT RACE - CHATERED ACCOUNTANTS &amp; CONSULTANTS"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'SCOT RACE CONSULT' },
+            { name: 'keywords', content: 'Accounting, Finance' },
           ]}
         ></Helmet>
 
