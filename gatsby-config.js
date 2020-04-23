@@ -6,14 +6,15 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: 'rgb(106, 110, 100)',
+        theme_color: 'rgb(106, 110, 100)',
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.webp', // This path is relative to the root of the site.
       },
