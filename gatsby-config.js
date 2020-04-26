@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'scot-race-consult',
+        short_name: 's-r-c',
         start_url: '/',
         background_color: 'rgb(106, 110, 100)',
         theme_color: 'rgb(106, 110, 100)',
