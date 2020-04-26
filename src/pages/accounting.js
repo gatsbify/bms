@@ -19,10 +19,12 @@ const Accounting = props => (
           <header className="major">
             <h2>Accounting</h2>
           </header>
-          <p>Our dedicated staff are at hand to provide
-          timely, accurate and well-organised financial records to ensure your
-          business operations run efficiently and smoothly.
-          We provide a full range of accounting services including:
+          <p>
+            Our dedicated staff are at hand to provide timely, accurate and
+            well-organised financial records to ensure your business operations
+            run efficiently and smoothly. We provide a full range of accounting
+            services including:
+          </p>
           <ul>
             <li>Preparation of annual accounts / financial statements</li>
             <li>Accounting software selection and implementation</li>
