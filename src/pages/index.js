@@ -16,7 +16,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="SCOT RACE - CHATERED ACCOUNTANTS &amp; CONSULTANTS"
+          title="SCOT RACE SA - CHATERED ACCOUNTANTS &amp; CONSULTANTS"
           meta={[
             { name: 'description', content: 'SCOT RACE CONSULT' },
             { name: 'keywords', content: 'Accounting, Finance' },
@@ -29,45 +29,46 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>General Business Consultancy</h3>
-                <p>Ipsum dolor sit amet</p>
+                <h3>Consulting</h3>
+                <p>General Business </p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/consultancy" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>External &amp; Internal Auditing</h3>
-                <p>feugiat amet tempus</p>
+                <h3>Audits</h3>
+                <p>Internal &amp; External</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/audits" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic03})` }}>
-              <header className="major">
-                <h3>Tax Planning</h3>
-                <p>Lorem etiam nullam</p>
-              </header>
-              <Link to="/landing" className="link primary"></Link>
-            </article>
+
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
-                <h3>Financial Statements</h3>
-                <p>Nisl sed aliquam</p>
+                <h3>Liquidation</h3>
+                <p>Business</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/liquidation" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
-                <h3>Business Valuation</h3>
-                <p>Ipsum dolor sit amet</p>
+                <h3>Valuation</h3>
+                <p>Business</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/valuation" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
-                <h3>Business Training</h3>
-                <p>Feugiat amet tempus</p>
+                <h3>Training</h3>
+                <p>Business &amp; Internal</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/training" className="link primary"></Link>
+            </article>
+            <article style={{ backgroundImage: `url(${pic03})` }}>
+              <header className="major">
+                <h3>Tax </h3>
+                <p>Planning &amp; Consulting</p>
+              </header>
+              <Link to="/taxconsultant" className="link primary"></Link>
             </article>
           </section>
           <section id="two">
@@ -88,8 +89,8 @@ class HomeIndex extends React.Component {
 
               <ul className="actions">
                 <li>
-                  <Link to="/landing" className="button next">
-                    Get Started
+                  <Link to="/services" className="button next">
+                    Our Services
                   </Link>
                 </li>
               </ul>

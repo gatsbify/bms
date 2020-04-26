@@ -8,7 +8,7 @@
 
 #banner {
   @include vendor('align-items', 'center');
-  @include vendor('background-image', 'url("../images/banner.webp")');
+  @include vendor('background-image', 'url("../images/audits.webp")');
   @include vendor('display', 'flex');
   @include padding(4em, 0, (2em, 0, 0, 0));
   background-attachment: fixed;
@@ -119,7 +119,7 @@
   }
   &.style2a {
     &:after {
-      background-color: #137aaa;
+      background-color: #79a34c;
     }
   }
   &.style3 {
@@ -129,17 +129,17 @@
   }
   &.style4 {
     &:after {
-      background-color: #436c75;
+      background-color: _palette(accent4);
     }
   }
   &.style5 {
     &:after {
-      background-color: #767b73;
+      background-color: _palette(accent5);
     }
   }
   &.style6 {
     &:after {
-      background-color: #137aaa;
+      background-color: _palette(accent6);
     }
   }
 

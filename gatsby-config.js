@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-preact`,
+    `gatsby-plugin-lodash`,
 
     {
       resolve: `gatsby-plugin-manifest`,
