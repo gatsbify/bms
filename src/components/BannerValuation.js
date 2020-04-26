@@ -4,7 +4,7 @@ const BannerValuation = props => (
   <section id="banner" className="style5">
     <div className="inner">
       <header className="major">
-        <h1>Buisness aluation</h1>
+        <h1>Buisness Valuation</h1>
       </header>
       <div className="content">
         <p>
