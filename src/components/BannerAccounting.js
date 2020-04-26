@@ -9,9 +9,7 @@ const BannerAccounting = props => (
       <div className="content">
         <p>
           Accounting Services in South Afric. In areas of accounting services,
-          cash flows or budgeting, our dedicated staff are at hand to provide
-          timely, accurate and well-organised financial records to ensure your
-          business operations run efficiently and smoothly.
+          cash flows or budgeting...
         </p>
       </div>
     </div>
