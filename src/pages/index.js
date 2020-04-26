@@ -21,7 +21,9 @@ class HomeIndex extends React.Component {
             { name: 'description', content: 'SCOT RACE CONSULT' },
             { name: 'keywords', content: 'Accounting, Finance' },
           ]}
-        ></Helmet>
+        >
+          <html lang="en" />
+        </Helmet>
 
         <Banner />
 
